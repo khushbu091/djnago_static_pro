@@ -1,0 +1,29 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- <h1> This is  header section</h1> -->
+        <a href="{% url 'home'%}">Home</a>
+        <!-- <a href="{% url 'about'%}">About</a>
+        <a href="{% url 'contact'%}">Contact</a>
+        <a href="{% url 'electronic'%}">Electronic</a>
+        <a href="{% url 'details'%}">Details</a> -->
+    </header>
+    
+    {%block content%}
+    <h1>this is leading page</h1>
+    {%endblock%}
+
+    <footer>
+        <h1> this is footer section </h1>
+    </footer>
+    
+    
+</body>
+</html>
